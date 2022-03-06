@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/jpg" href="images/logo.jpg"/>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Spoofly</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <div>
+    <nav class="navigation-bar">
+      <img class="images/logo.png" src="images/logo.jpg">
+      <ul class= "navlist">
+        <li><a href="Buy/premium.html">Premium</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="Music.html">Music</a></li>
+      </ul>
+    </nav>
+    <<div class="main-container">
+      <h1>Music for everyone.</h1>
+      <h2>Spoofly is now free on mobile, tablet and computer.<br> Listen to the right music, wherever you are.</h2>
+    </div>
+        <div class= "second-main">
+          <div class= "whatson">
+          <h1>
+What’s on Spoofly?
+    </h1>
+          </div>
+          <div>
+            <div class="columns">
+            <div class="column-left">
+              <img class="iconimage" src="images/AnimeThighs.jpg">
+              <div class="columns-text">
+                <h2>Hundreds of Songs</h2> <p>There are thousands of songs on Spoofly</p>
+              </div>
+            </div>
+            <div class="column-center">
+              <img class="iconimage" src="PNG/HdMusic.png">
+              <div class="columns-text">
+              <h2>HD Music</h2> <p>Listen to music as if you were listening live</p>
+              </div>
+            </div>
+            <div class="column-right">
+              <img class="iconimage" src="PNG/Stream.png">
+              <div class="columns-text">
+              <h2>Stream Everywhere</h2><p>Stream music on your smartphone, tablet or computer</p>
+            </div>
+            </div>
+            <div class="green-background">
+  <img class="app" src="PNG/Cool.jpg">
+              <div>
+                <h2>Search </h2>
+                <p>Know what you want to listen to? Just search and hit play. </p>
+              </div>
+              <div>
+                <h2>Browse </h2>
+                <p>Check out the latest charts, brand new releases and great playlists for right now.
+                  <p>
+              </div>
+              <div>
+                <h2>Discover</h2>
+                <p id="lastparagraph">Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.
+              </div>
+                          
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
+<style>
+  body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+.logo {
+    vertical-align: top;
+    width: 150px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    float:left;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.logo:hover {
+  cursor: pointer;
+  animation-name: bounce;
+}
+
+.navlist {
+float: right;
+vertical-align: middle;
+list-style-type: none;
+margin-right: 30px;
+margin-top: 20px;
+
+}
+
+li {
+    float: left;
+}
+
+a {
+
+    font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.main-container {
+  clear: both;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-image: url("https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/starter-code/images/landing.jpg?raw=true")
+}
+
+.main-container h1 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   align-items: center;
+   padding-top: 250px; 
+   font-size: 3em;
+   color: #FFF;
+   font-weight: bold;
+}
+
+.main-container h2 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   align-items: center;
+   padding-top: 25px; 
+   font-size: 1.1em;
+   color: #FFF;  
+   width: 55%;
+   line-height: 30px;
+  font-weight: lighter;
+}
+
+.landing {
+    width: 100%;
+    height: 30%;
+}
+
+.second-main {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.whatson h1{
+  display: inline;
+  border-bottom: 3px solid #00B172;
+  width: 100%;
+  padding-bottom: 7px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.columns {
+  margin-top: 30px;
+}
+
+.column-left{ 
+  float: left; width: 33%; height: 300px
+}
+
+.iconimage{
+
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  height: auto;
+  align-items: center;
+  padding-bottom:10px;
+  padding-top: 30px;
+}
+
+.columns h2 {
+  color:#00B172;
+  font-weight: 5px;
+}
+
+.column-right{ 
+  float: right; width: 33%; height: 300px 
+}
+
+.column-center{ 
+  display: inline-block; width: 33%; height: 300px 
+}
+
+.column-center h2{
+  padding-top: 12px;
+}
+
+.columns-text {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  font-size: 1.2em
+}
+
+.green-background {
+  background-color: #00B172;
+  height: 40%;
+  margin: 30px;
+  text-align: left;
+  background-image: url("https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/starter-code/images/spotify-icon-white.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px auto;
+}
+
+.green-background h1 {
+  clear: both;
+  display: inline-block;
+  color: white;
+  border-bottom: 5px solid #FFF;
+  padding-bottom: 5px;
+  margin-left: 60px;
+  padding-top: 20px;
+  font-size: 2.1em;
+  font-weight: bold;
+}
+
+.green-background h2 {
+  display: block;
+  width: 30%;
+  color: white;
+  margin-left: 60px;
+  padding-top: 15px;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.green-background p{
+  display: block;
+  color: white;
+  margin-left: 60px;
+  font-size: 1.3em;
+  font-weight: lighter;
+  width: 30%;
+}
+
+.app {
+  float: right;
+  height: auto;
+  width: 250px;
+  margin-right: 60px;
+  margin-top: 130px;
+}
+
+#lastparagraph { 
+    padding-bottom: 30px;
+}
+
+
+
+
+  </style>
